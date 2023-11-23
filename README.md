@@ -45,17 +45,17 @@ Two different cost functions are proposed to be used in Inliers counter process:
 
 <div class="row">
   <div class="column">
-    <img src="assets/SmallScaleAbs.png"  style="width:50%">
-    <img src="assets/SmallScaleSquare.png"  style="width:50%">
+    <img src="assets/SmallScaleAbs.png"  style="width:46%">
+    <img src="assets/SmallScaleSquare.png"  style="width:46%">
   
   </div> 
   <div class="column">
-    <img src="assets/MediumScaleAbs.png" style="width:50%">
-    <img src="assets/MediumScaleSquare.png" style="width:50%">
+    <img src="assets/MediumScaleAbs.png" style="width:46%">
+    <img src="assets/MediumScaleSquare.png" style="width:46%">
   </div>
   <div class="column">
-    <img src="assets/LargeScaleAbs.png"  style="width:50%">
-    <img src="assets/LargeScaleSquare.png"  style="width:50%">
+    <img src="assets/LargeScaleAbs.png"  style="width:46%">
+    <img src="assets/LargeScaleSquare.png"  style="width:46%">
   </div>
 </div>
 
