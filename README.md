@@ -112,6 +112,25 @@ For the Python file, there is also a help flag:
 python plot.py -h
 ```
 
+Data should be stored in the [Data](./Data/) directory and be in a txt file with the first column representing the x-coordinate, while the second column represents the y-coordinate.
+
+Parameters should be stored in the [Parameters](./Parameters/) directory with the name `parameters_i.txt`, where i is a number between 0 and 9, used for naming the file. 
+
+The structure of this file is:
+```
+$2 nSamples threshold lr costFunction
+0 4 0. 0.01 0
+1 4 0. 0.01 1
+```
+
+Parameters detail:
+* The `$2` indicates the number of rows (sets of parameters) you want to test the model with.
+* `threshold`: If it is 0, the model will estimate this value.
+* `costFunction`: 
+  * 0 -> absolute function
+  * 1 -> square error function.
+
+
 ## References 
 [1] Outlier detection using the RANSAC algorithm | https://medium.com/mlearning-aioutlier-detection-using-the-ransac-algorithm-de52670adb4a
   
